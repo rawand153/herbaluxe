@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SofadiOne';
+    src: url('../src/assets/fonts/Sofadi_One/SofadiOne-Regular.ttf')
+      format('truetype');
+  }
+  @font-face {
+    font-family: 'Nunito';
+    src: url('../src/assets/fonts/Nunito/Nunito-VariableFont_wght.ttf')
+      format('truetype');
+  }
+  @font-face {
+    font-family: 'Nunito-italic';
+    src: url('../src/assets/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf')
+      format('truetype');
+  }
+  
+  body{
+  background-color: #F9F5F1;
+  }
+/* Navbar.css */
+@media only screen and (max-width: 1325px) and (min-width: 1061px) {
+  .navLinks {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1325px) and (min-width: 886px) {
+  .navLinks {
+    font-size: 14px;
+  }
+}
+/* Footer.css */
+@media only screen and (max-width: 1024px) {
+  .foot {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .foot {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .foot {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .foot {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 885px) {
+  .navLinks {
+    font-size: 11px;
+  }
+}
+  
+/* Hero.css */
+
+.hero {
+  background-image: url(/images/heroBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Ingredients.css */
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: #7c9455;
+}
+.swiper-pagination {
+  margin-left: 5%;
+}
+@media (max-width: 916px) {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+  }
+}
